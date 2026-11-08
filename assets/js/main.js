@@ -1,5 +1,5 @@
 // Typed headline
-const words=["treasury and banking platforms","event-driven architectures","AI-augmented engineering","high-performing global teams"];
+const words=["financial platforms","event-driven architectures","AI-augmented engineering","high-performing global teams"];
 const el=document.getElementById('typed');let w=0,i=0,del=false;
 (function type(){const cur=words[w];el.textContent=cur.slice(0,i);
  if(!del&&i++===cur.length){del=true;return setTimeout(type,1600)}
