@@ -16,7 +16,7 @@ layout: default
 <section class="stats reveal">
   <div><b data-count="21" data-suffix="+">0</b><span>Years of experience</span></div>
   <div><b data-count="120">0</b><span>Global engineers led</span></div>
-  <div><b data-count="1" data-suffix="M">0</b><span>Concurrent users served</span></div>
+  <div><b data-count="millions" data-suffix="M">0</b><span> of concurrent users served</span></div>
   <div><b data-count="8">0</b><span>Organizations</span></div>
 </section>
 
@@ -24,7 +24,7 @@ layout: default
   <h2>About</h2>
   <div class="about">
     <p>I build and lead global engineering organizations for banking and financial services, delivering <strong>transaction-banking, payments, billing, collections and investment platforms</strong> on event-driven, cloud-native architectures.</p>
-    <p>That includes a 120-member program for Goldman Sachs' commercial banking platform and the target-state architecture for a large-scale credit card platform. Most recently I built an AI-driven no-code platform and drove GenAI adoption across engineering teams.</p>
+    <p>That includes a 120-member program for a very big Investment Bank commercial banking platform and the target-state architecture for a large-scale credit card platform. Most recently I built an AI-driven no-code platform and drove GenAI adoption across engineering teams.</p>
     <p>I'm known for technology strategy and roadmaps, engineering governance, regulatory-grade security and compliance, and for growing engineering managers and leaders across India and global locations.</p>
   </div>
 </section>
@@ -53,23 +53,6 @@ layout: default
     </article>
     {% endfor %}
   </div>
-</section>
-
-<section id="journey" class="wrap">
-  <h2 class="reveal">Journey</h2>
-  <div class="timeline">
-    {% for e in site.data.experience %}
-    <div class="item reveal">
-      <div class="dot"></div>
-      <div class="body">
-        <span class="period">{{ e.period }}</span>
-        <h3>{{ e.role }} <em>@ {{ e.company }}</em></h3>
-        <ul>{% for p in e.points %}<li>{{ p }}</li>{% endfor %}</ul>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-  <p class="edu reveal">🎓 Master's in Computer Application · Thapar University, Patiala (2004)</p>
 </section>
 
 <section id="contact" class="wrap contact reveal">
