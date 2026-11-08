@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }} · {{ site.description }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <header class="nav">
+    <a class="logo" href="#top">RK<span>.</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#highlights">Work</a>
+      <a href="#journey">Journey</a>
+      <a class="btn small" href="#contact">Let’s talk</a>
+    </nav>
+  </header>
+  {{ content }}
+  <footer>© {{ 'now' | date: "%Y" }} {{ site.title }} · Built with Jekyll</footer>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

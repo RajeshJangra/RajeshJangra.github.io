@@ -1,0 +1,42 @@
+- role: Director Engineering
+  company: ProcLink, Hyderabad
+  period: Aug 2025 – Jul 2026
+  points:
+    - Led enterprise architecture for a large-scale credit card platform, defining target state across origination, authorization, billing and collections.
+    - Drove modernization to cloud-native microservices, improving scalability, resilience and time-to-market.
+    - Coached high-potential engineering leaders with clear growth paths and career-progression frameworks.
+- role: Director Engineering
+  company: Brane Enterprises, Hyderabad
+  period: Feb 2023 – Jul 2025
+  points:
+    - Spearheaded an AI-driven no-code platform that lets business users build and deploy applications in natural language.
+    - Established engineering governance and delivery standards across globally distributed teams.
+    - Championed CI, inner-sourcing and peer-led architecture reviews; built the technical brand and talent pipeline.
+- role: Head of Engineering
+  company: Publicis Sapient, Bangalore
+  period: Sep 2019 – Jun 2022
+  points:
+    - Directed a 120-member global team delivering Goldman Sachs' commercial banking platform on public cloud with Kafka-based real-time streaming.
+    - Co-architected Siam Commercial Bank's super app on microservices, shortening release cycles.
+    - Owned engineering strategy, hiring plans and OKRs across multiple product lines; launched mentorship programs for women in tech.
+- role: Director Engineering
+  company: Thoughtworks, Gurgaon
+  period: Jul 2017 – Aug 2019
+  points:
+    - Implemented a blockchain platform for Vakt for secure data exchange and lower transaction costs.
+    - Designed a containerized microservices platform for Mercedes-Benz Group; built a knowledge platform at McKinsey.
+    - Created an engineering excellence program embedding design thinking across the lifecycle.
+- role: Director Technology
+  company: Xebia, Gurgaon
+  period: Jan 2014 – Jun 2017
+  points:
+    - Led migration of a legacy Fidelity Investments system to cloud-based microservices.
+    - Engineered Grindr's social platform with sub-second response for 1 million concurrent users.
+- role: Earlier career
+  company: Lamoda · Publicis Sapient · Amdocs · Perot Systems
+  period: Jul 2004 – Jan 2014
+  points:
+    - Lamoda, Director Technology — transformed a 20-person team through system redesign and a complex framework migration.
+    - Publicis Sapient, Manager Technology — grew a 20-person team to deliver a million-download sports app.
+    - Amdocs, Group Leader — modernized the Enabler billing system and upgraded Invoicing & Accounts Receivable.
+    - Perot Systems, Software Engineer — built systems for Hamilton Sundstrand and contributed to an ACH system for Bank of Ireland.

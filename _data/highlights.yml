@@ -1,0 +1,18 @@
+- tag: Goldman Sachs
+  title: Commercial banking platform
+  text: 120-member global program on public cloud with Kafka real-time streaming, translating CIB and Transaction Banking requirements into scalable technology.
+- tag: Credit Cards
+  title: Target-state architecture
+  text: Enterprise architecture across origination, authorization, billing and collections, modernized to cloud-native microservices.
+- tag: Siam Commercial Bank
+  title: Super app
+  text: Co-architected a financial, lifestyle and e-commerce super app on microservices.
+- tag: Generative AI
+  title: AI-driven no-code platform
+  text: Business users build and deploy applications in natural language, cutting dependency on engineering.
+- tag: Grindr
+  title: 1 million concurrent users
+  text: Cloud-based microservices social platform with sub-second response, critical to a successful launch.
+- tag: Fidelity · Vakt · Bank of Ireland
+  title: Investments, blockchain and clearing
+  text: Legacy Fidelity system moved to cloud microservices, a secure blockchain platform for oil and banking, and an automated clearing house.

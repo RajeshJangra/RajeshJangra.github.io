@@ -1,0 +1,82 @@
+---
+layout: default
+---
+<section id="top" class="hero">
+  <p class="eyebrow">Hyderabad · India</p>
+  <h1>Hi, I’m <span class="grad">Rajesh Kumar</span>.</h1>
+  <p class="typed-line">I lead teams building <span id="typed" class="grad"></span><span class="caret">|</span></p>
+  <p class="lead">Technology and engineering leader with 21+ years in banking and financial services: finance, treasury and transaction banking platforms, cloud modernization and AI-augmented engineering.</p>
+  <div class="cta">
+    <a class="btn" href="#highlights">See my work</a>
+    <a class="btn ghost" href="#contact">Get in touch</a>
+  </div>
+  <div class="scroll-hint">scroll ↓</div>
+</section>
+
+<section class="stats reveal">
+  <div><b data-count="21" data-suffix="+">0</b><span>Years of experience</span></div>
+  <div><b data-count="120">0</b><span>Global engineers led</span></div>
+  <div><b data-count="1" data-suffix="M">0</b><span>Concurrent users served</span></div>
+  <div><b data-count="8">0</b><span>Organizations</span></div>
+</section>
+
+<section id="about" class="wrap reveal">
+  <h2>About</h2>
+  <div class="about">
+    <p>I build and lead global engineering organizations for banking and financial services, delivering <strong>transaction-banking, payments, billing, collections and investment platforms</strong> on event-driven, cloud-native architectures.</p>
+    <p>That includes a 120-member program for Goldman Sachs' commercial banking platform and the target-state architecture for a large-scale credit card platform. Most recently I built an AI-driven no-code platform and drove GenAI adoption across engineering teams.</p>
+    <p>I'm known for technology strategy and roadmaps, engineering governance, regulatory-grade security and compliance, and for growing engineering managers and leaders across India and global locations.</p>
+  </div>
+</section>
+
+<section id="expertise" class="wrap">
+  <h2 class="reveal">Expertise</h2>
+  <div class="grid">
+    {% for s in site.data.skills %}
+    <article class="card reveal">
+      <div class="icon">{{ s.icon }}</div>
+      <h3>{{ s.title }}</h3>
+      <p>{{ s.text }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="highlights" class="wrap">
+  <h2 class="reveal">Selected work</h2>
+  <div class="grid">
+    {% for h in site.data.highlights %}
+    <article class="card reveal">
+      <span class="tag">{{ h.tag }}</span>
+      <h3>{{ h.title }}</h3>
+      <p>{{ h.text }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="journey" class="wrap">
+  <h2 class="reveal">Journey</h2>
+  <div class="timeline">
+    {% for e in site.data.experience %}
+    <div class="item reveal">
+      <div class="dot"></div>
+      <div class="body">
+        <span class="period">{{ e.period }}</span>
+        <h3>{{ e.role }} <em>@ {{ e.company }}</em></h3>
+        <ul>{% for p in e.points %}<li>{{ p }}</li>{% endfor %}</ul>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <p class="edu reveal">🎓 Master's in Computer Application · Thapar University, Patiala (2004)</p>
+</section>
+
+<section id="contact" class="wrap contact reveal">
+  <h2>Let’s build something that lasts.</h2>
+  <p>Open to conversations on engineering leadership, finance and treasury technology, and AI-augmented delivery.</p>
+  <div class="cta">
+    <a class="btn" href="mailto:{{ site.email }}">Email me</a>
+    <a class="btn ghost" href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</section>

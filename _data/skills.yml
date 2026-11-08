@@ -1,0 +1,24 @@
+- title: Finance & Treasury Systems
+  icon: "💹"
+  text: Architecture, integration and delivery of treasury management and finance platforms, with budget and FP&A ownership.
+- title: Transaction Banking & Payments
+  icon: "🏦"
+  text: Commercial banking, clearing houses and super apps built on real-time, event-driven foundations.
+- title: Event-Driven Architecture
+  icon: "⚡"
+  text: Kafka-based streaming and microservices for high-volume, auditable financial workloads.
+- title: Cloud Modernization
+  icon: "☁️"
+  text: Legacy to cloud-native migrations that improve scalability, resilience and time-to-market.
+- title: AI-Augmented Engineering
+  icon: "🤖"
+  text: GenAI adoption across engineering teams and an AI-driven no-code platform built from natural language.
+- title: Governance, Security & Risk
+  icon: "🛡️"
+  text: Regulatory-grade delivery with SOC 2, GDPR and ISO, partnering with risk and compliance.
+- title: Global Engineering Leadership
+  icon: "🧭"
+  text: Managing managers and large cross-regional teams, with coaching and talent development frameworks.
+- title: Vendors & Budgets
+  icon: "📊"
+  text: Technology budget ownership, vendor negotiation and contract management for best value and service levels.
